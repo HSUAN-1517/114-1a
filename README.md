@@ -15,4 +15,4 @@ color:
 ```
 ---
 
-[高科大] (http:www.nkust.edu.tw)
+[高科大](http:www.nkust.edu.tw)
