@@ -17,4 +17,5 @@ color:
 
 [高科大](http:www.nkust.edu.tw)
 
-!([http:www.nkust.edu.tw](https://www.nkust.edu.tw/var/file/0/1000/img/513/182513897.png))
+![NKUST](182513897.png "高科大")
+([http:www.nkust.edu.tw](https://www.nkust.edu.tw/var/file/0/1000/img/513/182513897.png))
