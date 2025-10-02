@@ -19,7 +19,7 @@ graph TD
     8 --> 10
     9 --> 11(任務11: 使用者測試 - 25天)
     10 --> 11
-    11 --> end(專案結束)
+    11 --> finish(專案結束)
 ```
 
 ### 任務時程計算表
@@ -45,7 +45,9 @@ graph TD
 ```mermaid
 gantt
     title 專案時程甘特圖
-    dateFormat  YYYY-MM-DD
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
+    
     section 專案任務
     任務1: 研擬計畫        :a1, 2025-10-02, 1d
     任務2: 任務分配        :a2, after a1, 4d
@@ -56,8 +58,9 @@ gantt
     任務7: 撰寫使用手冊    :a7, after a5, 25d
     任務8: 轉換檔案        :a8, after a5, 20d
     任務9: 系統測試        :a9, after a6, 25d
-    任務10: 使用者訓練     :a10, after a7, a8, 20d
-    任務11: 使用者測試     :a11, after a9, a10, 25d
+    任務10: 使用者訓練     :a10, after a7, 20d
+    任務11: 使用者測試     :a11, after a9, 25d
+
 ```
 
 ## 3. 關鍵路徑
